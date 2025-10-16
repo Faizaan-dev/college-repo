@@ -1,0 +1,29 @@
+faizaan@faizaans-MacBook-Air college % git init
+Initialized empty Git repository in /Users/faizaan/college/.git/
+faizaan@faizaans-MacBook-Air college % git add .
+faizaan@faizaans-MacBook-Air college % git commit -m "creaeted html file"
+[main (root-commit) 71a90af] creaeted html file
+ Committer: faizaan <faizaan@faizaans-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+ 
+ 2 files changed, 11 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 index.html
+faizaan@faizaans-MacBook-Air college % git remote add origin https://github.com/Faizaan-dev/college-repo.git
+faizaan@faizaans-MacBook-Air college % git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 653 bytes | 653.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Faizaan-dev/college-repo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+faizaan@faizaans-MacBook-Air college % 
+
+
